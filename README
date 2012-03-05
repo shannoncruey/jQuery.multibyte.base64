@@ -1,0 +1,15 @@
+A jQuery plugin for base64 encoding, that allows multibyte and unicode characters.
+
+This is simply a jQuery plugin wrapper around the awesome code found here:
+
+http://www.webtoolkit.info/javascript-base64.html
+
+Enjoy!
+
+SAMPLE CODE:
+
+//some special characters
+var instr = $.base64.encode('£¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ–—‘’‚“”„†‡•…‰€™'); 
+alert(instr);
+var outstr = $.base64.decode(instr);
+alert(outstr);
